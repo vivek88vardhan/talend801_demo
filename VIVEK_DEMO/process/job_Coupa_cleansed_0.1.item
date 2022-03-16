@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:OA52DdotSsBm3cTmINfMM0oiJmtwOLaLAzAs6yvE"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:YH3h8bMe5WIOSuzqllHXzYPhVHZG4P5w0XYoZzQa"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:S5fUDwXNv0iOSGY+lwIhb7VGrMJ34nDz5npi95ah"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:mHfIOCxa8qoExl4S0BngwZ7KNFVFRseqIPEsL+M6"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -117,7 +117,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tGSConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="SERVICE_ACCOUNT"/>
     <elementParameter field="FILE" name="SERVICE_ACCOUNT_KEY" value="&quot;C:/Users/vivek_varanasi/Documents/advance-subject-344219-f319f13825d9.json&quot;"/>
-    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:hR9M/l8hJT9R3Xr8g5g11xcptpdSuSmF9afmze6R"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:c8VDKf+VXjh4EV86c5ANi1VfMttxiA7CuNert6QW"/>
     <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
     <elementParameter field="TEXT" name="GS_PROJECT_ID" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -128,7 +128,7 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tGSConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="SERVICE_ACCOUNT"/>
     <elementParameter field="FILE" name="SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/vivek_varanasi/workspace/key.json&quot;"/>
-    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:rtBDpVwaSpx4O4BvvCRfQlGQ7WAj2UfhmGoQ43e5"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:Cwh5jd4uc36WDK0z7qOHUPbHFuCzRj7u80iHAUUs"/>
     <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
     <elementParameter field="TEXT" name="GS_PROJECT_ID" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="OBJECTS_PREFIX" show="false" value="&quot;&quot;"/>
@@ -190,7 +190,7 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tGSConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="SERVICE_ACCOUNT"/>
     <elementParameter field="FILE" name="SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/vivek_varanasi/workspace/key.json&quot;"/>
-    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:qLSoPOaXTt1clOlqIFla5rZNbeHN8pNxPTroq9xw"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:SB5S04tPkIiIVYDBOFldOfCACCQz5SRlcICarb0i"/>
     <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
     <elementParameter field="TEXT" name="GS_PROJECT_ID" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SOURCE_BUCKET" value="&quot;datalake_001_raw&quot;"/>
@@ -208,11 +208,11 @@
   <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQueryBulkExec_1"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
-    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:D2WG3BoxpYqf3KJRIiCZ9e+JSKrJpYzbGD1IBte0"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:Tt5rYflNSj5es6yF0q/8YYDOxIQe+hOtnJQEKw9u"/>
     <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
     <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/vivek_varanasi/Documents/advance-subject-344219-f319f13825d9.json&quot;"/>
     <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:dyAMLWjmKxPIoAxN16H8FWAZhKf1S11+uddcXSm0"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:3WGHKXaexu4L5sUQvse88/598MmGDVT9NUraDLCE"/>
     <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;advance-subject-344219&quot;"/>
     <elementParameter field="TEXT" name="DATASET" value="&quot;coupa_datamart&quot;"/>
@@ -222,7 +222,7 @@
     <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="GS_SERVICE_ACCOUNT"/>
     <elementParameter field="FILE" name="GS_SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/vivek_varanasi/workspace/key.json&quot;"/>
-    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:ebRl7XzV7nz1p3X+Inb5cm3HyLMZCiD1uWbsfTgF"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:HFXtgSLFIJUqMLRr9r98lgqDFf9vLw3ow8WdQgWj"/>
     <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
     <elementParameter field="FILE" name="GS_LOCAL_FILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="BUCKET_NAME" show="false" value="&quot;&quot;"/>
@@ -246,7 +246,7 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tGSConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="SERVICE_ACCOUNT"/>
     <elementParameter field="FILE" name="SERVICE_ACCOUNT_KEY" show="false" value="&quot;C:/Users/vivek_varanasi/workspace/key.json&quot;"/>
-    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:bCnzzuTDtL8TMprRmMBW/5kht5fGnqTm6LOHhNe0"/>
+    <elementParameter field="PASSWORD" name="GS_ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:l+2DTilO5XrdhUC+OuIKSEqVc/DpgmXE3ZDNfYh3"/>
     <elementParameter field="LABEL" name="GS_ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
     <elementParameter field="TEXT" name="GS_PROJECT_ID" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="OBJECTS_PREFIX" show="false" value="&quot;&quot;"/>
@@ -305,15 +305,15 @@
   <node componentName="tBigQuerySQLRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBigQuerySQLRow_1"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
-    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:e6FwO8F2x8AdMor4ZFYeHUshQJAqRd3KArVzOH1l"/>
+    <elementParameter field="PASSWORD" name="ACCESS_TOKEN" show="false" value="enc:system.encryption.key.v1:ctLrT5V5YVecN5jF1/wc3oAhFCIbiU52CuxcQSLw"/>
     <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" show="false" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;"/>
     <elementParameter field="FILE" name="SERVICE_ACCOUNT_CREDENTIALS_FILE" value="&quot;C:/Users/vivek_varanasi/Documents/advance-subject-344219-f319f13825d9.json&quot;"/>
     <elementParameter field="TEXT" name="CLIENT_ID" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:O2qDJa6oE+hWjAd92pzXqHFUAaj9T2uW7wo/wvHv"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" show="false" value="enc:system.encryption.key.v1:+YmE57NRfbhvZ0lt+clLd7c4JBq0YlIayPWGqK2t"/>
     <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;advance-subject-344219&quot;"/>
     <elementParameter field="TEXT" name="AUTHORIZATION_CODE" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_LEGACY_SQL" value="false"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;MERGE INTO advance-subject-344219.coupa_datamart.expense_report T&#13;&#10;USING advance-subject-344219.coupa_datamart._staging_expense_report S&#13;&#10;ON T.RecordType = S.RecordType&#13;&#10;                AND T.ID = S.ID&#13;&#10;                AND T.line_id = S.line_id&#13;&#10;                AND T.line_number = S.line_number&#13;&#10;WHEN MATCHED THEN&#13;&#10;                UPDATE SET&#13;&#10;                RecordType = S.RecordType,&#13;&#10;                ID = S.ID,&#13;&#10;                end_date = S.end_date,&#13;&#10;                line_id = S.line_id,&#13;&#10;                line_number = S.line_number,&#13;&#10;                created_at = S.created_at,&#13;&#10;&#9;&#9;&#9;&#9;description = S.description&#13;&#10;WHEN NOT MATCHED THEN&#13;&#10;                INSERT (RecordType, ID, line_id, line_number, created_at,description )&#13;&#10;  VALUES (S.RecordType, S.ID, S.line_id, S.line_number, S.created_at,S.description)&#13;&#10;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;MERGE INTO coupa_datamart.expense_report T&#13;&#10;USING coupa_datamart._staging_expense_report S&#13;&#10;ON T.RecordType = S.RecordType&#13;&#10;                AND T.ID = S.ID&#13;&#10;                AND T.line_id = S.line_id&#13;&#10;                AND T.line_number = S.line_number&#13;&#10;WHEN MATCHED THEN&#13;&#10;                UPDATE SET&#13;&#10;                RecordType = S.RecordType,&#13;&#10;                ID = S.ID,&#13;&#10;                line_id = S.line_id,&#13;&#10;                line_number = S.line_number,&#13;&#10;                created_at = S.created_at,&#13;&#10;&#9;&#9;&#9;&#9;description = S.description&#13;&#10;WHEN NOT MATCHED THEN&#13;&#10;                INSERT (RecordType, ID, line_id, line_number, created_at,description )&#13;&#10;  VALUES (S.RecordType, S.ID, S.line_id, S.line_number, S.created_at,S.description)&#13;&#10;&quot;"/>
     <elementParameter field="FILE" name="TOKEN_NAME" show="false" value="&quot;C:/Users/vivek_varanasi/workspace/token.properties&quot;"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
@@ -395,13 +395,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3bc49baf-c37d-4b13-b5af-ce8abb46516d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tbSTze3PNnvaETyaRP0oNrO+eDGkNrfstySjRD5mrP2XSn/bcKnsbKKXljByFWXI+LXAUP60lyHr&#13;
-qFeB5OLbVA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_42ff1702-bbec-4a81-8cc9-9d9074a6fa82"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mXPqWlMBdnhPNTvEpP4q9YG2pK+GsxOFtTLk98wG6ld9S2xjZCm5ULDxz1z2CdwKQudS6mk8Xscg&#13;
-4dymKJJGJA==</DigestValue></Reference></SignedInfo><SignatureValue>dGNPZclthhFaZRBgkKxNDcX49KtsYNwWMkMkSy4OHCcBy6j8IhsGa6qOVNUYTCdpDxrqTjosTzTC&#13;
-9dhNnQU9h5/3peW/5W9jsEGQkng/LT61cOUN5N77IJxyfp+MF+iLIbfVMd9dhiZ4Zxo5dYbvj144&#13;
-IABZNKo/QgXspZ5JFAgET95W6DSeQ3v84tV3QNYnGDf9ZMaRs0MO+dYvhGlGew5Bcu9+pqWMVgk3&#13;
-JeF2Kzh5LvchiaoANQEFPae6TmOq0h4M2y2cBlPvZ06ax5lAGZg9M10GkRYheuQHBM/As1mhK6mS&#13;
-WrjbSxKXc2R0//wxL3hsvi+onyz/f4NSD4zMbQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0d1b8b5e-da03-4cfc-b1b6-a25fbb9888d5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZP4s9mkEZkJOQrZ4NtCD+kzXsThoL0sW38sFnk/bdRbFvEUX9yTnmLRRHAkb+imtN4GJU29GObk2&#13;
+3ntgb9O8tw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ef8ab68d-ff24-4593-9ef3-a7d95ff1c99f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Sfd83mzIlmO3jqH0iJR0abxHyD6LA4eqbOCCzjT4LdeB80vLebYT5bFPW9AVL8r/vxVOOzu75CnI&#13;
+hv2HIBfC6A==</DigestValue></Reference></SignedInfo><SignatureValue>hX+78usX01EWdUuu3bwejDhxpimVfXRgrFi1OH99G9oEKHUM62fQCT9HUtHnMQqmsmOuFd2cp9oE&#13;
+yilRtvbamYXlhWdv3vo2VjO8w0eNhN8RmRcNfZnX1BicqdtjjAMVBf/vvznAigo88eKmeZur7b1x&#13;
+kjQHSmhfhQlaa7xz31SrlefRwazJNCY2CRAw6OyHndES29g9/n/gszT0NZVJFbcmZ0iMWdRuAl1i&#13;
+lUs55nICsfpqHpYApurbiwC2+ZMFXbbw3VZPomlEcqJREFF3rIo+N6Ut3s5fOkXdC0UiNKnW/Ayt&#13;
+on9AGgDq60nOJD6ALQNmRttZlDTh12qCPBEMNg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -423,4 +423,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_42ff1702-bbec-4a81-8cc9-9d9074a6fa82" Target="#_3bc49baf-c37d-4b13-b5af-ce8abb46516d"><Timestamp>2022-03-16 13:20:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ef8ab68d-ff24-4593-9ef3-a7d95ff1c99f" Target="#_0d1b8b5e-da03-4cfc-b1b6-a25fbb9888d5"><Timestamp>2022-03-16 13:21:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
