@@ -7,7 +7,7 @@
     <contextParameter comment="Add Documentation Here" internalId="_tZ_SQGnpEe2Fv-w9YXCS6Q" name="dbDatabaseSet" prompt="dbDatabaseSet?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="AIDA_QA"/>
     <contextParameter comment="" internalId="_tZ_SQWnpEe2Fv-w9YXCS6Q" name="dbWarehouseSet" prompt="dbWarehouseSet?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="AC_WH"/>
     <contextParameter comment="" internalId="_tZ_SQmnpEe2Fv-w9YXCS6Q" name="dbUserIdSet" prompt="dbUserIdSet?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="RS4202"/>
-    <contextParameter comment="" internalId="_tZ_SQ2npEe2Fv-w9YXCS6Q" name="dbPasswordSet" prompt="dbPasswordSet?" promptNeeded="true" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:n+GTrnUYU3Q67Ru/1q1PciULBmYRNnmYUJ6sgcHrvJkWHeE="/>
+    <contextParameter comment="" internalId="_tZ_SQ2npEe2Fv-w9YXCS6Q" name="dbPasswordSet" prompt="dbPasswordSet?" promptNeeded="true" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:zYDgGGr7bbErjdfuC0uPs0J13gCq5P6Juda/J0PncDxMFYU="/>
     <contextParameter comment="" internalId="_Sr5PoGy1Ee2Fv-w9YXCS6Q" name="sheetName" prompt="sheetName?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="PIT_TKT_NO_HUB"/>
     <contextParameter comment="" internalId="_DIJyEW2_Ee2Fv-w9YXCS6Q" name="LOAD_DTETME" prompt="LOAD_DTETME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="LOAD_DTETME"/>
     <contextParameter comment="" internalId="_QeDH8m86Ee2BE-mRKJS0Aw" name="fmcSchema" prompt="fmcSchema?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="RS4202"/>
@@ -17,6 +17,14 @@
     <contextParameter comment="" internalId="_A00POZRbEe2NMZiMDQsYgg" name="tableAction" prompt="tableAction?" promptNeeded="true" repositoryContextId="built-in" type="id_List Of Value" value="NONE,CREATE_IF_NOT_EXISTS,DROP_AND_CREATE,CREATE,DROP_IF_EXISTS_AND_CREATE,CLEAR,TRUNCATE"/>
     <contextParameter comment="" internalId="_Bo0g1JQgEe2784SOAWifUA" name="rejectAction" prompt="rejectAction?" promptNeeded="true" repositoryContextId="built-in" type="id_List Of Value" value="CREATE_IF_NOT_EXISTS,NONE,DROP_AND_CREATE,CREATE,DROP_IF_EXISTS_AND_CREATE,CLEAR,TRUNCATE"/>
     <contextParameter comment="" internalId="_g0RDmZdqEe2UdO6VYayKNg" name="b2sSchema" prompt="b2sSchema?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="DQR"/>
+    <contextParameter comment="" internalId="_Tjq3QMmeEe2pKf6fdr1RSQ" name="git_project_path" prompt="git_project_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/talend/v8/Talend-Studio-20211109_1610-V8.0.1/commandline-workspace/SalesViewTalend/ARGO_STREAM2_SALESVIEW_REDESIGN/process/AIRCANADA"/>
+    <contextParameter comment="" internalId="_Tjq3QcmeEe2pKf6fdr1RSQ" name="local_scriptPath_to_be_generated" prompt="local_scriptPath_to_be_generated?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/aircanada/cicd/runscript"/>
+    <contextParameter comment="" internalId="_Tjq3QsmeEe2pKf6fdr1RSQ" name="projectname" prompt="projectname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ARGO_STREAM2_SALESVIEW_REDESIGN"/>
+    <contextParameter comment="" internalId="_Tjq3Q8meEe2pKf6fdr1RSQ" name="talendUser" prompt="talendUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Vivek.Varanasi@aircanada.ca"/>
+    <contextParameter comment="" internalId="_Tjq3RMmeEe2pKf6fdr1RSQ" name="talendtoken" prompt="talendtoken?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Af4kieV2R46xkjxDzLupskg6-wjvKsd_KhUxagTYCVxPXr3M1on8uaZMFKf08KID"/>
+    <contextParameter comment="" internalId="_Tjq3RcmeEe2pKf6fdr1RSQ" name="input_job_script_path" prompt="input_job_script_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/aircanada/cicd"/>
+    <contextParameter comment="" internalId="_Tjq3RsmeEe2pKf6fdr1RSQ" name="commandlinePath" prompt="commandlinePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/talend/v8/Talend-Studio-20211109_1610-V8.0.1/"/>
+    <contextParameter comment="" internalId="_Tjq3R8meEe2pKf6fdr1RSQ" name="commandlineWorkSpace" prompt="commandlineWorkSpace?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/talend/v8/Talend-Studio-20211109_1610-V8.0.1/commandline-workspace/"/>
   </context>
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_AwiNIFJlEe21IaFLPrWKvg" name="xlPIT" prompt="xlPIT?" promptNeeded="true" repositoryContextId="built-in" type="id_File" value="/Users/Shared/clients/AIR CANADA/meta/mstr_bdv_PIT.xlsm"/>
@@ -26,7 +34,7 @@
     <contextParameter comment="Add Documentation Here" internalId="_tZ_SQGnpEe2Fv-w9YXCS6Q" name="dbDatabaseSet" prompt="dbDatabaseSet?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="NUEL_AC_DV"/>
     <contextParameter comment="" internalId="_tZ_SQWnpEe2Fv-w9YXCS6Q" name="dbWarehouseSet" prompt="dbWarehouseSet?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="AC_WH"/>
     <contextParameter comment="" internalId="_tZ_SQmnpEe2Fv-w9YXCS6Q" name="dbUserIdSet" prompt="dbUserIdSet?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="AC_USER"/>
-    <contextParameter comment="" internalId="_tZ_SQ2npEe2Fv-w9YXCS6Q" name="dbPasswordSet" prompt="dbPasswordSet?" promptNeeded="true" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:NlrtBtlGn+58vYA9X1XM0yMexpNdgvKKj6GX2htA/s59zOM/kURx"/>
+    <contextParameter comment="" internalId="_tZ_SQ2npEe2Fv-w9YXCS6Q" name="dbPasswordSet" prompt="dbPasswordSet?" promptNeeded="true" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:pY/q5gDh7oirEBFpcaqL1IV5GXC/GikQSp5qEuPuQq1ZHd1JZ76C"/>
     <contextParameter comment="" internalId="_Sr5PoGy1Ee2Fv-w9YXCS6Q" name="sheetName" prompt="sheetName?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="mstr_bdv_PIT_W_HARD_RULES"/>
     <contextParameter comment="" internalId="_DIJyEG2_Ee2Fv-w9YXCS6Q" name="LOAD_DTETME" prompt="LOAD_DTETME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="LOAD_DTETME"/>
     <contextParameter comment="" internalId="_QeDH8G86Ee2BE-mRKJS0Aw" name="fmcSchema" prompt="fmcSchema?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="NUEL_SCHEMA"/>
@@ -36,6 +44,14 @@
     <contextParameter comment="" internalId="_A00PMJRbEe2NMZiMDQsYgg" name="tableAction" prompt="tableAction?" promptNeeded="true" repositoryContextId="built-in" type="id_List Of Value" value="NONE,CREATE_IF_NOT_EXISTS,DROP_AND_CREATE,CREATE,DROP_IF_EXISTS_AND_CREATE,CLEAR,TRUNCATE"/>
     <contextParameter comment="" internalId="_Boz5wJQgEe2784SOAWifUA" name="rejectAction" prompt="rejectAction?" promptNeeded="true" repositoryContextId="built-in" type="id_List Of Value" value="CREATE_IF_NOT_EXISTS,NONE,DROP_AND_CREATE,CREATE,DROP_IF_EXISTS_AND_CREATE,CLEAR,TRUNCATE"/>
     <contextParameter comment="" internalId="_g0RDkJdqEe2UdO6VYayKNg" name="b2sSchema" prompt="b2sSchema?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="DQR"/>
+    <contextParameter comment="" internalId="_Tjq3SMmeEe2pKf6fdr1RSQ" name="git_project_path" prompt="git_project_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Tjq3ScmeEe2pKf6fdr1RSQ" name="local_scriptPath_to_be_generated" prompt="local_scriptPath_to_be_generated?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Tjq3SsmeEe2pKf6fdr1RSQ" name="projectname" prompt="projectname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Tjq3S8meEe2pKf6fdr1RSQ" name="talendUser" prompt="talendUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Tjq3TMmeEe2pKf6fdr1RSQ" name="talendtoken" prompt="talendtoken?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Tjq3TcmeEe2pKf6fdr1RSQ" name="input_job_script_path" prompt="input_job_script_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Tjq3TsmeEe2pKf6fdr1RSQ" name="commandlinePath" prompt="commandlinePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Tjq3T8meEe2pKf6fdr1RSQ" name="commandlineWorkSpace" prompt="commandlineWorkSpace?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -82,7 +98,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:NiZVfs45VmxCH4HvFPOtNDha1duF8AUsNUDIVPxq"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:6cxisPrkR8pZZS9XqSZ20Td3iBv1w7GmyEyxDSfP"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -117,7 +133,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:eCHxGEg1ta+GECdJMgcZv4eTR4cw/5/EB8uzUw4g"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:EI+xb2GPSleL/ECwMSTsMNZGGyq8s8FkcDlF8Z7n"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -156,7 +172,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:HN+A4MtpyFWawHXu1fJNdtyyytYE6iX3YxLmAg83"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:FWhAn7f2Y1RceeJWhFU9e/0zjywdY9pvd0X9ERvR"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -571,7 +587,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_2"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:QUA3Dw+3pWnCUWPJMwMwyAk6D55Dam7coehAtyl3"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:ToXoRdXdH/LT/pwHffIGKmNTFkauZ13uyGUfd/rZ"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -796,7 +812,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_19"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:lIbxmJg/cSG/Bl1kCz0VS3BOvEbiDuhh1tHUpW32"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:eDKKto5CpzW6kEmHBcVyk2Lkm2hw1d9VkzTbA2Ap"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -994,7 +1010,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_3"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:UE1GZk+/wMLpkOppKxOk+jntJBBZe3mhGI5DCmuF"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Q6fw0fZae1392UwAjSNxevyxvU0v8CJld5SNmBgH"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -1217,7 +1233,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_4"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:4rqW44FogU8tpLt94qlnVqwM0XcCIjJKYiMoJvOT"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Ewyec8mfag6S3aOCruYjzrqYFMxFpk+1sfiwHtaq"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -1440,7 +1456,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_5"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:DBzIeQ4I/qAiMvXWZLY9X88d+EKusizCwVOVL+qg"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:rkno9bxwmEPHmNf0w1n31FOlCuY/NoebpceMycXT"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -1728,7 +1744,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_7"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:/q+t/LHqfyH9oGwOgPP/ZYbzbQPL3OUpicYtceBg"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:PXzQOsD/WmppsQr5W+4N4lspX/gjSf33YvVoU89S"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -1918,7 +1934,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_8"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:3iDSP7RWSNFn28PkzLPKkTTW1sDIHRpC9E3NJXrP"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:BFeirWKeiasYwHatTjFS3FoFJYPjImDLVURJpUt1"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -2757,7 +2773,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_6"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:NdADn31Rzj2GKX28zKzjQZK4H7ECTX7xPfF5aVLI"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:zrQR9kNxM6hPuN1wOeqM80xpiuCs+uEkmxVK3Uug"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -2984,7 +3000,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_9"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:p8fqN9gkkZ/Avx+131Kf4w9mFniHrG7rP/6MkXoc"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:WU3HDy7+FIG7zLdk3uIPdN+6zLam95nn5b7SRsFt"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -3296,7 +3312,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_13"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Me/JdJ8B+n9u6OGFudfFQrTJEzDTVwP7eoe19fcp"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:5ZidblPl8Irpk7/r1LDdU6AYAa9tadrAjqvTSjfo"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -3584,7 +3600,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_14"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:YELxQUKO4TTe2a3QbTMZ0Dd3FkrhlQPZIt7p28go"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:tobyroq+DZG7aTmPZINLpif+7ArbDTsSj0yp26bG"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -3795,7 +3811,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_10"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:cgDk5phRlcXGXfzQTEtmFkNoJXoZG35Atndquf1K"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:JwztqbxMctETzHoe9leLAx+PKL5Za6m26Zlg4F+z"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -4087,7 +4103,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_11"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:zRrv+utqBB6lV+KZwlwwfwcsWCIm8dIdtgH0R3nr"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:SUArtBVYqWoZrfAkZKOSbtc2G68HOuaIurtNOf7w"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -4351,7 +4367,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_12"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:9Xmk8ZX9adflCQ3Cd9Ars3HhKVT2rC48sCb1klO0"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:QBWnwQqLKebULdvmRhtefD1UUR/NykS26QJZ5IGA"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -4562,7 +4578,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_15"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:+eVlKXpWP6zFowFD9s64mlpqEKOpffFj+uhu/MDs"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:rzLRSBw+C1rqnF1DglJjGmm3maWzInL9Ht5NoPQa"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -4773,7 +4789,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_16"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:vIovN52oIspPcIGOLEa2O4HdeFvjc/CqwN2hqym6"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Z1jSC4MRKLDhVXQ/rI2PUTuPcQ+Cw9zMtRBHYQZq"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -4984,7 +5000,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_18"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:bVkOI7wQeHGZCigcfW/T9RCSRM1WWS+eGm5sdlse"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:d30j7F0JeLjH/StZZo7AZHxh89/sKWiVm72mJ9k6"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -5219,7 +5235,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_17"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Epi8UqQp7M4WZOXqAXHj9V3O0rqcIhal321ambKQ"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:JFv76iacCiX2QYzrlI+oA/cONeWblL3ufN1vOHuR"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -5458,7 +5474,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_20"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:byQd4uYva2QhFeWNOAUzBuKT2vQEULpYHwOLhjYb"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:zEhe0YfOSEfzLxlu+LWMrvEDIxPyWrdc3SdiRbsv"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -5669,7 +5685,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_21"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.xlPIT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:f04btBe+xh1+aieQpghm52UFRuxVfO0zWX5fSzbL"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:l1Mf6MWFIP80OJltTEL48Jx2yh/CUgxaDQB25KWD"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="context.sheetName"/>
@@ -5988,28 +6004,12 @@
     <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
-    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="job_name_coming_from_generation"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.sheetName"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="jobName_to_be_generated"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.sheetName"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="git_project_path"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="local_scriptPath_to_be_generated"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="projectname"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="talendUser"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="talendtoken"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="input_job_script_path"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="commandlinePath"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="commandlineWorkSpace"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -6671,13 +6671,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dbb9693c-7dfb-49a1-958c-f721be8d6fa6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>b9YOZZZow4q7uTTRITkTpQBT62EeLbR5x5r9TDNHltr4X2PUfbdZjrWfg/jpVvCcXG7b3+FpmhtR&#13;
-FKqfOxhMZQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0e980c6d-5feb-4f39-b9ab-5cca26ee7683"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YzBT+BH+yZ9Ml5LIO3JWxtPBLq5W2iz8h8NN3AaZq+6RBGU9q5eKBreHCZJAsW0tleXTY5UTiE/4&#13;
-y5OaeOQupw==</DigestValue></Reference></SignedInfo><SignatureValue>S5mzCfXao6nv8IgBZYr/uRDAbeY1Ol/t8V+raQeQKw4db8Y0l28MGfXm3IBOyOAabciSimGEOEil&#13;
-M6FacUN7c4peiT//fAYBdzBuhAvHMQqVQoBh45F2y2zfonnluxpC+qxzIVTE7QrmQT5QJ/g+PXC0&#13;
-UCg41O4bHZHhDFPKtfD9R3QgWutpFM7HNuX5VINOZ/JmzbAzP2mEXUVwRGiekrbcZBCVnIZ8GyVh&#13;
-6WPPpZGBfeQGVnW4beVSmr5CBiOG9v7hmYxMnFKFeHBEChc0WpPsSBdhZLYHG+U/uqVXsnRPCnNp&#13;
-RPIV7jNLU/SIIjCVMlyNjhGjceOd57PKYm4HMQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f50bc2de-873a-468c-847e-00adc1b08d0e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4Q/svsHScJ2PNG9bIf5GPubaQ5hoPUbPtR0wFMPM+4iyh2iw8U72UxDP9iadJQ9PrIPHL9k1E+jH&#13;
+U9YmpU3qhA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_54570be8-2187-40f6-91f4-e84a50c54a7e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pnQDhibwhA0ksrX0E/uwnfiw6esNAHxyoXqIfDSMI92LZsDqrQXmpYa/jo42mzJFisxQFMDLkkvz&#13;
+Kv70TPpGrA==</DigestValue></Reference></SignedInfo><SignatureValue>kQqGo1Jo8AiVug/tdf+V9vwJp2IGsd4iGQ7zFkWlsA4y3BIOAmIAezRnk4DAHGuEIfaIUGwf8B4g&#13;
+F+ohtlmDSTAGtUQNQXJtzfQ/fFXyt7jCGD15bG2cd3SK/S6F1sCvjZjmQ/h0OXs1jcFhL5d1pxlS&#13;
+URY33OLogZp3M6ehc8hkw883B+9L+UtcYgYCgdiNSwnCcO2p0c0GRTreRmq/Q0xEcuecndJ1dku8&#13;
+y+9w3Ot8JoaAZVGEt0x0Hflr3MPtW64lYMpDSWeZi95dTa7JS8HeXModUgRGgU13J1Dwc6xHMfNP&#13;
+EAWTXrHtiFbRCYkhR6uBBrJy0QVF+23uN1y27A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -6699,4 +6699,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0e980c6d-5feb-4f39-b9ab-5cca26ee7683" Target="#_dbb9693c-7dfb-49a1-958c-f721be8d6fa6"><Timestamp>2023-03-23 17:08:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_54570be8-2187-40f6-91f4-e84a50c54a7e" Target="#_f50bc2de-873a-468c-847e-00adc1b08d0e"><Timestamp>2023-03-23 17:15:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
