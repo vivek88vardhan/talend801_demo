@@ -6,7 +6,7 @@
     <contextParameter comment="" internalId="_gvbNAEtREe2B345dobMqzQ" name="local_scriptPath_to_be_generated" prompt="local_scriptPath_to_be_generated?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/aircanada/cicd/runscript"/>
     <contextParameter comment="" internalId="_d-4XYFL5Ee2CQPRogy4MwA" name="projectname" prompt="projectname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ARGO_STREAM2_SALESVIEW_REDESIGN"/>
     <contextParameter comment="" internalId="_d-4XYVL5Ee2CQPRogy4MwA" name="talendUser" prompt="talendUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Vivek.Varanasi@aircanada.ca"/>
-    <contextParameter comment="" internalId="_d-4XYlL5Ee2CQPRogy4MwA" name="talendtoken" prompt="talendtoken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:c7varHN86rFGyVlw2BgIy1G3HI6JHH0rcIDCiNx9GLuhWXGSFY2rp8uJXF8gKY3AfKi5nhvXGXjbEtMis/+p7AI0i7BB+XyPoncqaCEKX1d4czySl5ESQhCLQic="/>
+    <contextParameter comment="" internalId="_d-4XYlL5Ee2CQPRogy4MwA" name="talendtoken" prompt="talendtoken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:aI7ov2/1r5UBuZB/K31vNzRb2PwoquMoqB87dUHI4c8m6uvMxHv5ka7aWsYxACJfdCHEios9v+n6KCjoB2tqgbOelHT5Jxa3+9iZDXaTo9YwSb4q6VGKjvbLFbg="/>
     <contextParameter comment="" internalId="_d-4XY1L5Ee2CQPRogy4MwA" name="input_job_script_path" prompt="input_job_script_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/aircanada/cicd"/>
     <contextParameter comment="" internalId="_TSheMFMAEe2CQPRogy4MwA" name="commandlinePath" prompt="commandlinePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/talend/v8/Talend-Studio-20211109_1610-V8.0.1/"/>
     <contextParameter comment="" internalId="_3eUNkMmGEe2pKf6fdr1RSQ" name="commandlineWorkSpace" prompt="commandlineWorkSpace?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/vivek/Documents/talend/v8/Talend-Studio-20211109_1610-V8.0.1/commandline-workspace/"/>
@@ -54,7 +54,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:kLrnlkP/qRWNfWvz+WUn9tj/9GNaR1dYKFLiWuO7"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:syS9/+PP4Htlqfdy7PhYOVHXL4k9OEE9BLkDlPdR"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -89,7 +89,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:l1r2u4/HwxPhDfPp1euR7vMTh7pllyVYG3PHot3v"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:cxbPqprsUxD3Af1o7NVbNQj1iiRn7/pC2ybTMyXu"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -403,7 +403,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="T2" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="&quot;initLocal\ncreateProject -pn &quot;+context.projectname+&quot; -pd &quot;+context.projectname+&quot; -pl java -pa &quot;+context.talendUser+&quot;\n&#10;logonProject -pn &quot;+row6.Projectname+&quot; -ul &quot;+row6.username+&quot; -up &quot;+row6.token+&quot;\ncreateJob &quot;+row6.jobname+&quot; -o -sf &quot;+row6.jobscript_path+&quot;/&quot;+row6.jobscript+&quot;.jobscript&quot; " name="newColumn" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;initLocal\ncreateProject -pn &quot;+context.projectname+&quot; -pd &quot;+context.projectname+&quot; -pl java -pa &quot;+context.talendUser+&quot;\nlogonProject -pn &quot;+row6.Projectname+&quot; -ul &quot;+row6.username+&quot; -up &quot;+row6.token+&quot;\ncreateJob &quot;+row6.jobname+&quot; -o -sf &quot;+row6.jobscript_path+&quot;/&quot;+row6.jobscript+&quot;.jobscript&quot; " name="newColumn" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row6" sizeState="INTERMEDIATE">
         <mapperTableEntries name="jobname" nullable="true" type="id_String"/>
@@ -627,13 +627,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c4917e24-ca99-4226-9d36-d9c07f2386c5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BA+VODBtFp/VVXbm7H/yOQD5oDHeWUYcL5mO8WGtWWv1NC9srSE7m6Jt7LTuC1H7Qtvfk18GdLj5&#13;
-YjSjUZDAdw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_04a52679-8759-426e-9f25-c62660d8f8e2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vTcqNp1DW4kf1MbCfd30cbAx3glRy2YbMEtci9ZoJ3VaWtff2FCEecXRyvfwulpZvzSmoYSMcb0p&#13;
-TzkVEYsC4Q==</DigestValue></Reference></SignedInfo><SignatureValue>W7/wHjdbks0GtPLcFLmEj4mMFQqqmtZVlC+/YDw8YeYnQVrCP6Jhi9mBzVpAexaEjL8JuLVXfA7U&#13;
-84ZcWVy5ERFnlCsMPvyoZ72wSMdzkotrLsqBeztglA/f0LX2BFyM3UhsVZEmD2UtO/dlNz8fN2is&#13;
-HQwtRUI6+RIls6ikARRZQMNjfDBrAKeqwvKjt9pu2cuOukdyA1HbkuKC3LWCQUNi2yaXJV9e/Kns&#13;
-SHhLSXyte4whvfhNCkBpD9n6VkRAt4s2iPbFYex5+PoQFrtExq+sv7xtkc3+iGTKYC8P1sFlhjqH&#13;
-L+cHw+q/mf7A/bAvN65cADK5tWCrIUBWpDWyDw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_74e47e29-2013-46b9-9e14-32b7f722290f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JeBUrrzyDHwD4ZDGOT/xNwDG6CaHgBGqQ/PvORxNrB6zKL2uhlY/0ENvfUw84l6QudFM12PtwMz0&#13;
+M5KHJU19lg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bd5a8f1e-aacc-4b06-9b09-1e1009de6099"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LZt3tm0LQyTvr7bA4xFlTH2M42FqihBNIelCj0j9Oqeg9A2gEcDAlRqNiWKtecoWVUl8/S2Ksek3&#13;
+GKsQNTdJEw==</DigestValue></Reference></SignedInfo><SignatureValue>XjdRhVPn4NY6mauxYVqAHqPCrUNK/ucc/DgCG+LNM+/3PZtlqExCmFV+L1V7T8Z5jbRlZQ3klY11&#13;
+jFxF0/wwo75yi7A0NnimQ9Npz/WDEkWXULpdTwu1ixcpXn1/oFGjAsEbTOSh3xtyYirNaxLmzXRR&#13;
+f82cHdmhL5l4IssmxPItm6DNHiM6x+y/AT0UsND1CHC5ljpFUODAMOF2PUHT99s8Uy9nU/BfOzWp&#13;
+N2VvrDTrXe+2Iwv/qLGLUEek1v70JjCoGn4o8/jdg9LQzz/GpDx/HP5prdgYjnFSP2dl1GYTe2m8&#13;
+IdL5+13/aw8Poux1GxtWRfpurAQrd5ngMrlM/Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -655,4 +655,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_04a52679-8759-426e-9f25-c62660d8f8e2" Target="#_c4917e24-ca99-4226-9d36-d9c07f2386c5"><Timestamp>2023-03-27 21:57:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bd5a8f1e-aacc-4b06-9b09-1e1009de6099" Target="#_74e47e29-2013-46b9-9e14-32b7f722290f"><Timestamp>2023-03-27 21:59:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
