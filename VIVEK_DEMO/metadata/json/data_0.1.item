@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_as9RYKLZEfCCffKgNLtgeQ" name="data" id="_as4_8KLZEfCCffKgNLtgeQ" dataPackage="_as9Rj6LZEfCCffKgNLtgeQ" JSONFilePath="/Users/vivekvardhan/data.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_as9RYaLZEfCCffKgNLtgeQ" LimitBoucle="50" AbsoluteXPathQuery="$.products[*]">
+      <schemaTargets xmi:id="_as9RYqLZEfCCffKgNLtgeQ" RelativeXPathQuery="GTINStatus" TagName="GTINStatus"/>
+      <schemaTargets xmi:id="_as9RY6LZEfCCffKgNLtgeQ" RelativeXPathQuery="GTIN8" TagName="GTIN8"/>
+      <schemaTargets xmi:id="_as9RZKLZEfCCffKgNLtgeQ" RelativeXPathQuery="CompanyName" TagName="CompanyName"/>
+      <schemaTargets xmi:id="_as9RZaLZEfCCffKgNLtgeQ" RelativeXPathQuery="CompanyURI" TagName="CompanyURI"/>
+      <schemaTargets xmi:id="_as9RZqLZEfCCffKgNLtgeQ" RelativeXPathQuery="Prefix" TagName="Prefix"/>
+      <schemaTargets xmi:id="_as9RZ6LZEfCCffKgNLtgeQ" RelativeXPathQuery="GTIN" TagName="GTIN"/>
+      <schemaTargets xmi:id="_as9RaKLZEfCCffKgNLtgeQ" RelativeXPathQuery="GTIN13" TagName="GTIN13"/>
+      <schemaTargets xmi:id="_as9RaaLZEfCCffKgNLtgeQ" RelativeXPathQuery="GTIN12" TagName="GTIN12"/>
+      <schemaTargets xmi:id="_as9RaqLZEfCCffKgNLtgeQ" RelativeXPathQuery="PackagingLevel" TagName="PackagingLevel"/>
+      <schemaTargets xmi:id="_as9Ra6LZEfCCffKgNLtgeQ" RelativeXPathQuery="Industry" TagName="Industry"/>
+      <schemaTargets xmi:id="_as9RbKLZEfCCffKgNLtgeQ" RelativeXPathQuery="EntityGLN" TagName="EntityGLN"/>
+      <schemaTargets xmi:id="_as9RbaLZEfCCffKgNLtgeQ" RelativeXPathQuery="ProductDescription" TagName="ProductDescription"/>
+      <schemaTargets xmi:id="_as9RbqLZEfCCffKgNLtgeQ" RelativeXPathQuery="ProductDescriptionLanguage1" TagName="ProductDescriptionLanguage1"/>
+      <schemaTargets xmi:id="_as9Rb6LZEfCCffKgNLtgeQ" RelativeXPathQuery="ProductDescription2" TagName="ProductDescription2"/>
+      <schemaTargets xmi:id="_as9RcKLZEfCCffKgNLtgeQ" RelativeXPathQuery="ProductDescriptionLanguage2" TagName="ProductDescriptionLanguage2"/>
+      <schemaTargets xmi:id="_as9RcaLZEfCCffKgNLtgeQ" RelativeXPathQuery="SKU" TagName="SKU"/>
+      <schemaTargets xmi:id="_as9RcqLZEfCCffKgNLtgeQ" RelativeXPathQuery="Dimensions.DimensionMeasure" TagName="DimensionMeasure"/>
+      <schemaTargets xmi:id="_as9RdqLZEfCCffKgNLtgeQ" RelativeXPathQuery="SubBrandName" TagName="SubBrandName"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_as9Rj6LZEfCCffKgNLtgeQ" name="default" dataManager="_as9RYKLZEfCCffKgNLtgeQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_as9RkKLZEfCCffKgNLtgeQ" id="_PRmBUKLZEfCCffKgNLtgeQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RkaLZEfCCffKgNLtgeQ" label="GTINStatus" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RkqLZEfCCffKgNLtgeQ" label="GTIN8" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9Rk6LZEfCCffKgNLtgeQ" label="CompanyName" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RlKLZEfCCffKgNLtgeQ" label="CompanyURI" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RlaLZEfCCffKgNLtgeQ" label="Prefix" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RlqLZEfCCffKgNLtgeQ" label="GTIN" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9Rl6LZEfCCffKgNLtgeQ" label="GTIN13" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RmKLZEfCCffKgNLtgeQ" label="GTIN12" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RmaLZEfCCffKgNLtgeQ" label="PackagingLevel" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RmqLZEfCCffKgNLtgeQ" label="Industry" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9Rm6LZEfCCffKgNLtgeQ" label="EntityGLN" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RnKLZEfCCffKgNLtgeQ" label="ProductDescription" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RnaLZEfCCffKgNLtgeQ" label="ProductDescriptionLanguage1" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RnqLZEfCCffKgNLtgeQ" label="ProductDescription2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9Rn6LZEfCCffKgNLtgeQ" label="ProductDescriptionLanguage2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RoKLZEfCCffKgNLtgeQ" label="SKU" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RoaLZEfCCffKgNLtgeQ" label="DimensionMeasure" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_as9RpaLZEfCCffKgNLtgeQ" label="SubBrandName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,134 @@
+package routines;
+
+import java.math.BigDecimal;
+import java.util.regex.Pattern;
+
+public class DataCleaner {
+
+
+    private static final Pattern NON_PRINTABLE = Pattern.compile("[^\\x20-\\x7E]");
+    private static final Pattern EMAIL_PATTERN = Pattern.compile("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
+    private static final Pattern DIGIT_PATTERN = Pattern.compile("\\d+");
+
+    
+    public static String cleanState(String state) {
+        if (state == null) {
+            return "XX";
+        }
+
+        String trimmed = state.trim().toUpperCase();
+
+        if (trimmed.length() == 2) {
+            return trimmed;
+        } else {
+            return "XX";
+        }
+    }
+    
+    // ---------------- STRING CLEANING ----------------
+    public static String cleanString(String value) {
+        if (value == null) return "";
+        value = value.trim();
+        value = value.equalsIgnoreCase("null") ? "" : value;
+        value = NON_PRINTABLE.matcher(value).replaceAll("");
+        return value;
+    }
+
+    // ---------------- INTEGER / LONG CLEANING ----------------
+    public static Integer cleanInteger(Object value) {
+        try {
+            if (value == null) return 0;
+            return Integer.parseInt(value.toString().trim());
+        } catch (Exception e) {
+            return 0; // default for invalid int
+        }
+    }
+
+    public static Long cleanLong(Object value) {
+        try {
+            if (value == null) return 0L;
+            return Long.parseLong(value.toString().trim());
+        } catch (Exception e) {
+            return 0L;
+        }
+    }
+
+    // ---------------- DECIMAL / FLOAT / BIGDECIMAL CLEANING ----------------
+    public static BigDecimal cleanDecimal(Object value, int scale) {
+        try {
+            if (value == null) return BigDecimal.ZERO.setScale(scale);
+            BigDecimal bd = new BigDecimal(value.toString().trim());
+            return bd.setScale(scale, BigDecimal.ROUND_HALF_UP);
+        } catch (Exception e) {
+            return BigDecimal.ZERO.setScale(scale);
+        }
+    }
+
+    // ---------------- PHONE NUMBER CLEANING ----------------
+    public static String cleanPhone(String phone) {
+        if (phone == null) return "";
+        phone = phone.replaceAll("[^0-9]", "");
+        if (phone.length() == 10) {
+            return String.format("(%s) %s-%s", phone.substring(0, 3), phone.substring(3, 6), phone.substring(6));
+        }
+        return phone; // return raw if not valid
+    }
+
+    // ---------------- EMAIL CLEANING ----------------
+    public static String cleanEmail(String email) {
+        if (email == null) return "";
+        email = email.trim().toLowerCase();
+        if (!EMAIL_PATTERN.matcher(email).matches()) {
+            return "INVALID_EMAIL";
+        }
+        return email;
+    }
+
+    // ---------------- SSN CLEANING ----------------
+    public static String cleanSSN(String ssn) {
+        if (ssn == null) return "";
+        ssn = ssn.replaceAll("[^0-9]", "");
+        if (ssn.length() == 9) {
+            return "*-**-" + ssn.substring(5);
+        }
+        return "INVALID_SSN";
+    }
+
+    // ---------------- ADDRESS CLEANING ----------------
+    public static String cleanAddress(String addr) {
+        if (addr == null) return "";
+        addr = NON_PRINTABLE.matcher(addr).replaceAll("");
+        addr = addr.trim().replaceAll("\\s+", " ");
+        return addr;
+    }
+
+    // ---------------- AUTO DETECTION BY COLUMN NAME ----------------
+    public static Object cleanByColumn(String colName, Object value, String dataType) {
+        colName = colName.toLowerCase();
+
+        // STRING COLUMNS
+        if (dataType.equalsIgnoreCase("id_String")) {
+            String val = cleanString(value != null ? value.toString() : "");
+            if (colName.contains("phone")) return cleanPhone(val);
+            else if (colName.contains("email")) return cleanEmail(val);
+            else if (colName.contains("ssn")) return cleanSSN(val);
+            else if (colName.contains("address")) return cleanAddress(val);
+            else if (colName.contains("state")) return cleanState(val);
+            else return val;
+        }
+
+        // INTEGER / LONG
+        else if (dataType.equalsIgnoreCase("id_Integer")) {
+            return cleanInteger(value);
+        } else if (dataType.equalsIgnoreCase("id_Long")) {
+            return cleanLong(value);
+        }
+
+        // DECIMAL / FLOAT / BIGDECIMAL
+        else if (dataType.equalsIgnoreCase("id_BigDecimal") || dataType.equalsIgnoreCase("id_Float") || dataType.equalsIgnoreCase("id_Double")) {
+            return cleanDecimal(value, 2);
+        }
+
+        return value;
+    }
+}

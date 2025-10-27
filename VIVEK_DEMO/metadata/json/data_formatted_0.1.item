@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_Va0fQaTPEfCCffKgNLtgeQ" name="data_formatted" dataPackage="_Va0fVKTPEfCCffKgNLtgeQ" JSONFilePath="/Users/vivekvardhan/Desktop/gtin_full_1_formatted.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_Va0fQqTPEfCCffKgNLtgeQ" LimitBoucle="50" AbsoluteXPathQuery="$.data[*]">
+      <schemaTargets xmi:id="_Va0fQ6TPEfCCffKgNLtgeQ" RelativeXPathQuery="gtin" TagName="gtin"/>
+      <schemaTargets xmi:id="_Va0fRKTPEfCCffKgNLtgeQ" RelativeXPathQuery="gpcCategoryCode" TagName="gpcCategoryCode"/>
+      <schemaTargets xmi:id="_Va0fRaTPEfCCffKgNLtgeQ" RelativeXPathQuery="licenseeName" TagName="licenseeName"/>
+      <schemaTargets xmi:id="_Va0fRqTPEfCCffKgNLtgeQ" RelativeXPathQuery="gtinRecordStatus" TagName="gtinRecordStatus"/>
+      <schemaTargets xmi:id="_Va0fR6TPEfCCffKgNLtgeQ" RelativeXPathQuery="brandName[*].language" TagName="language"/>
+      <schemaTargets xmi:id="_Va0fSKTPEfCCffKgNLtgeQ" RelativeXPathQuery="brandName[*].value" TagName="value"/>
+      <schemaTargets xmi:id="_Va0fSaTPEfCCffKgNLtgeQ" RelativeXPathQuery="productDescription[*].language" TagName="language1"/>
+      <schemaTargets xmi:id="_Va0fSqTPEfCCffKgNLtgeQ" RelativeXPathQuery="productDescription[*].value" TagName="value1"/>
+      <schemaTargets xmi:id="_Va0fS6TPEfCCffKgNLtgeQ" RelativeXPathQuery="countryOfSaleCode[*].alpha2" TagName="alpha2"/>
+      <schemaTargets xmi:id="_Va0fTKTPEfCCffKgNLtgeQ" RelativeXPathQuery="countryOfSaleCode[*].numeric" TagName="numeric"/>
+      <schemaTargets xmi:id="_Va0fTaTPEfCCffKgNLtgeQ" RelativeXPathQuery="countryOfSaleCode[*].alpha3" TagName="alpha3"/>
+      <schemaTargets xmi:id="_Va0fTqTPEfCCffKgNLtgeQ" RelativeXPathQuery="netContent[*].unitCode" TagName="unitCode"/>
+      <schemaTargets xmi:id="_Va0fT6TPEfCCffKgNLtgeQ" RelativeXPathQuery="netContent[*].value" TagName="value2"/>
+      <schemaTargets xmi:id="_Va0fUKTPEfCCffKgNLtgeQ" RelativeXPathQuery="dateCreated" TagName="dateCreated"/>
+      <schemaTargets xmi:id="_Va0fUaTPEfCCffKgNLtgeQ" RelativeXPathQuery="dateUpdated" TagName="dateUpdated"/>
+      <schemaTargets xmi:id="_Va0fUqTPEfCCffKgNLtgeQ" RelativeXPathQuery="productImageUrl[*].language" TagName="language2"/>
+      <schemaTargets xmi:id="_Va0fU6TPEfCCffKgNLtgeQ" RelativeXPathQuery="productImageUrl[*].value" TagName="value3"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Va0fVKTPEfCCffKgNLtgeQ" name="default" dataManager="_Va0fQaTPEfCCffKgNLtgeQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Va0fVaTPEfCCffKgNLtgeQ" id="_BeodoKTPEfCCffKgNLtgeQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fVqTPEfCCffKgNLtgeQ" label="gtin" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fV6TPEfCCffKgNLtgeQ" label="gpcCategoryCode" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fWKTPEfCCffKgNLtgeQ" label="licenseeName" length="70" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fWaTPEfCCffKgNLtgeQ" label="gtinRecordStatus" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fWqTPEfCCffKgNLtgeQ" label="language" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fW6TPEfCCffKgNLtgeQ" label="value" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fXKTPEfCCffKgNLtgeQ" label="language1" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fXaTPEfCCffKgNLtgeQ" label="value1" length="107" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fXqTPEfCCffKgNLtgeQ" label="alpha2" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fX6TPEfCCffKgNLtgeQ" label="numeric" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fYKTPEfCCffKgNLtgeQ" label="alpha3" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fYaTPEfCCffKgNLtgeQ" label="unitCode" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fYqTPEfCCffKgNLtgeQ" label="value2" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fY6TPEfCCffKgNLtgeQ" label="dateCreated" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fZKTPEfCCffKgNLtgeQ" label="dateUpdated" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fZaTPEfCCffKgNLtgeQ" label="language2" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_Va0fZqTPEfCCffKgNLtgeQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Va0fZ6TPEfCCffKgNLtgeQ" label="value3" length="199" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
