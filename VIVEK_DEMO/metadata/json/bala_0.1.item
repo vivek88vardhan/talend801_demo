@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_kTB50LLqEfCHt5xtVcYWyw" name="bala" dataPackage="_kTB5-rLqEfCHt5xtVcYWyw" JSONFilePath="/Users/vivekvardhan/Downloads/bala.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_kTB50bLqEfCHt5xtVcYWyw" LimitBoucle="50" AbsoluteXPathQuery="$.products[*]">
+      <schemaTargets xmi:id="_kTB50rLqEfCHt5xtVcYWyw" RelativeXPathQuery="GTINStatus" TagName="GTINStatus"/>
+      <schemaTargets xmi:id="_kTB507LqEfCHt5xtVcYWyw" RelativeXPathQuery="GTIN8" TagName="GTIN8"/>
+      <schemaTargets xmi:id="_kTB51LLqEfCHt5xtVcYWyw" RelativeXPathQuery="CompanyName" TagName="CompanyName"/>
+      <schemaTargets xmi:id="_kTB51bLqEfCHt5xtVcYWyw" RelativeXPathQuery="CompanyURI" TagName="CompanyURI"/>
+      <schemaTargets xmi:id="_kTB51rLqEfCHt5xtVcYWyw" RelativeXPathQuery="Prefix" TagName="Prefix"/>
+      <schemaTargets xmi:id="_kTB517LqEfCHt5xtVcYWyw" RelativeXPathQuery="GTIN" TagName="GTIN"/>
+      <schemaTargets xmi:id="_kTB52LLqEfCHt5xtVcYWyw" RelativeXPathQuery="GTIN13" TagName="GTIN13"/>
+      <schemaTargets xmi:id="_kTB52bLqEfCHt5xtVcYWyw" RelativeXPathQuery="GTIN12" TagName="GTIN12"/>
+      <schemaTargets xmi:id="_kTB52rLqEfCHt5xtVcYWyw" RelativeXPathQuery="PackagingLevel" TagName="PackagingLevel"/>
+      <schemaTargets xmi:id="_kTB527LqEfCHt5xtVcYWyw" RelativeXPathQuery="Industry" TagName="Industry"/>
+      <schemaTargets xmi:id="_kTB53LLqEfCHt5xtVcYWyw" RelativeXPathQuery="EntityGLN" TagName="EntityGLN"/>
+      <schemaTargets xmi:id="_kTB53bLqEfCHt5xtVcYWyw" RelativeXPathQuery="ProductDescription" TagName="ProductDescription"/>
+      <schemaTargets xmi:id="_kTB53rLqEfCHt5xtVcYWyw" RelativeXPathQuery="ProductDescriptionLanguage1" TagName="ProductDescriptionLanguage1"/>
+      <schemaTargets xmi:id="_kTB537LqEfCHt5xtVcYWyw" RelativeXPathQuery="ProductDescription2" TagName="ProductDescription2"/>
+      <schemaTargets xmi:id="_kTB54LLqEfCHt5xtVcYWyw" RelativeXPathQuery="ProductDescriptionLanguage2" TagName="ProductDescriptionLanguage2"/>
+      <schemaTargets xmi:id="_kTB54bLqEfCHt5xtVcYWyw" RelativeXPathQuery="SKU" TagName="SKU"/>
+      <schemaTargets xmi:id="_kTB54rLqEfCHt5xtVcYWyw" RelativeXPathQuery="BrandName" TagName="BrandName"/>
+      <schemaTargets xmi:id="_kTB547LqEfCHt5xtVcYWyw" RelativeXPathQuery="BrandNameLanguage1" TagName="BrandNameLanguage1"/>
+      <schemaTargets xmi:id="_kTB55LLqEfCHt5xtVcYWyw" RelativeXPathQuery="BrandName2" TagName="BrandName2"/>
+      <schemaTargets xmi:id="_kTB55bLqEfCHt5xtVcYWyw" RelativeXPathQuery="BrandNameLanguage2" TagName="BrandNameLanguage2"/>
+      <schemaTargets xmi:id="_kTB55rLqEfCHt5xtVcYWyw" RelativeXPathQuery="Status" TagName="Status"/>
+      <schemaTargets xmi:id="_kTB557LqEfCHt5xtVcYWyw" RelativeXPathQuery="IsVariable" TagName="IsVariable"/>
+      <schemaTargets xmi:id="_kTB56LLqEfCHt5xtVcYWyw" RelativeXPathQuery="SubBrandName" TagName="SubBrandName1"/>
+      <schemaTargets xmi:id="_kTB56bLqEfCHt5xtVcYWyw" RelativeXPathQuery="ProductDescriptionShort" TagName="ProductDescriptionShort1"/>
+      <schemaTargets xmi:id="_kTB56rLqEfCHt5xtVcYWyw" RelativeXPathQuery="LabelDescription" TagName="LabelDescription1"/>
+      <schemaTargets xmi:id="_kTB567LqEfCHt5xtVcYWyw" RelativeXPathQuery="IsPurchasable" TagName="IsPurchasable"/>
+      <schemaTargets xmi:id="_kTB57LLqEfCHt5xtVcYWyw" RelativeXPathQuery="GlobalProductClassification" TagName="GlobalProductClassification"/>
+      <schemaTargets xmi:id="_kTB57bLqEfCHt5xtVcYWyw" RelativeXPathQuery="ImageURL" TagName="ImageURL"/>
+      <schemaTargets xmi:id="_kTB57rLqEfCHt5xtVcYWyw" RelativeXPathQuery="SubBrandName" TagName="SubBrandName"/>
+      <schemaTargets xmi:id="_kTB577LqEfCHt5xtVcYWyw" RelativeXPathQuery="ProductDescriptionShort" TagName="ProductDescriptionShort"/>
+      <schemaTargets xmi:id="_kTB58LLqEfCHt5xtVcYWyw" RelativeXPathQuery="LabelDescription" TagName="LabelDescription"/>
+      <schemaTargets xmi:id="_kTB58bLqEfCHt5xtVcYWyw" RelativeXPathQuery="Dimensions.DimensionMeasure" TagName="DimensionMeasure"/>
+      <schemaTargets xmi:id="_kTB58rLqEfCHt5xtVcYWyw" RelativeXPathQuery="Weight.weightMeasure" TagName="weightMeasure"/>
+      <schemaTargets xmi:id="_kTB587LqEfCHt5xtVcYWyw" RelativeXPathQuery="Weight.grossWeight" TagName="grossWeight"/>
+      <schemaTargets xmi:id="_kTB59LLqEfCHt5xtVcYWyw" RelativeXPathQuery="Weight.netWeight" TagName="netWeight"/>
+      <schemaTargets xmi:id="_kTB59bLqEfCHt5xtVcYWyw" RelativeXPathQuery="Dimensions.Height" TagName="Height"/>
+      <schemaTargets xmi:id="_kTB59rLqEfCHt5xtVcYWyw" RelativeXPathQuery="Dimensions.Width" TagName="Width"/>
+      <schemaTargets xmi:id="_kTB597LqEfCHt5xtVcYWyw" RelativeXPathQuery="Dimensions.Depth" TagName="Depth"/>
+      <schemaTargets xmi:id="_kTB5-LLqEfCHt5xtVcYWyw" RelativeXPathQuery="IsEnhanced" TagName="IsEnhanced"/>
+      <schemaTargets xmi:id="_kTB5-bLqEfCHt5xtVcYWyw" RelativeXPathQuery="ModifiedDate" TagName="ModifiedDate"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kTB5-rLqEfCHt5xtVcYWyw" name="default" dataManager="_kTB50LLqEfCHt5xtVcYWyw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kTB5-7LqEfCHt5xtVcYWyw" id="_2mAXYLLpEfCHt5xtVcYWyw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB5_LLqEfCHt5xtVcYWyw" label="GTINStatus" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB5_bLqEfCHt5xtVcYWyw" label="GTIN8" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB5_rLqEfCHt5xtVcYWyw" label="CompanyName" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB5_7LqEfCHt5xtVcYWyw" label="CompanyURI" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6ALLqEfCHt5xtVcYWyw" label="Prefix" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6AbLqEfCHt5xtVcYWyw" label="GTIN" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6ArLqEfCHt5xtVcYWyw" label="GTIN13" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6A7LqEfCHt5xtVcYWyw" label="GTIN12" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6BLLqEfCHt5xtVcYWyw" label="PackagingLevel" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6BbLqEfCHt5xtVcYWyw" label="Industry" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6BrLqEfCHt5xtVcYWyw" label="EntityGLN" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6B7LqEfCHt5xtVcYWyw" label="ProductDescription" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6CLLqEfCHt5xtVcYWyw" label="ProductDescriptionLanguage1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6CbLqEfCHt5xtVcYWyw" label="ProductDescription2" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6CrLqEfCHt5xtVcYWyw" label="ProductDescriptionLanguage2" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6C7LqEfCHt5xtVcYWyw" label="SKU" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6DLLqEfCHt5xtVcYWyw" label="BrandName" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6DbLqEfCHt5xtVcYWyw" label="BrandNameLanguage1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6DrLqEfCHt5xtVcYWyw" label="BrandName2" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6D7LqEfCHt5xtVcYWyw" label="BrandNameLanguage2" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6ELLqEfCHt5xtVcYWyw" label="Status" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6EbLqEfCHt5xtVcYWyw" label="IsVariable" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6ErLqEfCHt5xtVcYWyw" label="SubBrandName1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6E7LqEfCHt5xtVcYWyw" label="ProductDescriptionShort1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6FLLqEfCHt5xtVcYWyw" label="LabelDescription1" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6FbLqEfCHt5xtVcYWyw" label="IsPurchasable" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6FrLqEfCHt5xtVcYWyw" label="GlobalProductClassification" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6F7LqEfCHt5xtVcYWyw" label="ImageURL" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6GLLqEfCHt5xtVcYWyw" label="SubBrandName" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6GbLqEfCHt5xtVcYWyw" label="ProductDescriptionShort" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6GrLqEfCHt5xtVcYWyw" label="LabelDescription" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6G7LqEfCHt5xtVcYWyw" label="DimensionMeasure" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6HLLqEfCHt5xtVcYWyw" label="weightMeasure" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6HbLqEfCHt5xtVcYWyw" label="grossWeight" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6HrLqEfCHt5xtVcYWyw" label="netWeight" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6H7LqEfCHt5xtVcYWyw" label="Height" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6ILLqEfCHt5xtVcYWyw" label="Width" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6IbLqEfCHt5xtVcYWyw" label="Depth" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6IrLqEfCHt5xtVcYWyw" label="IsEnhanced" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kTB6I7LqEfCHt5xtVcYWyw" label="ModifiedDate" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
