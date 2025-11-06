@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_gwAfILsmEfCDFPA2sJ_liA" name="pharma_public_db" id="_J_16ALsmEfCDFPA2sJ_liA" label="pharma_public_db" dataPackage="_g2xOcLsmEfCDFPA2sJ_liA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://70.184.113.100:5433/pinsights?" dbVersionString="V9_X" Port="5433" Username="postgres" Password="enc:system.encryption.key.v1:goAQY2t0hb6VfX+j1bUdPwC6w5FFC8B5SWjIEi1YkTuBC4DyqrAtQQ==" ServerName="70.184.113.100" DatasourceName="" FileFieldName="" SID="pinsights" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_gwAfIbsmEfCDFPA2sJ_liA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_gwLeQLsmEfCDFPA2sJ_liA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_gwPIoLsmEfCDFPA2sJ_liA" tag="Status" value=""/>
+    <taggedValue xmi:id="_gwPIobsmEfCDFPA2sJ_liA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_gwPIorsmEfCDFPA2sJ_liA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_gwPIo7smEfCDFPA2sJ_liA" tag="Description" value=""/>
+    <taggedValue xmi:id="_gwPIpLsmEfCDFPA2sJ_liA" tag="Author" value=""/>
+    <taggedValue xmi:id="_gwPIpbsmEfCDFPA2sJ_liA" tag="otherParameter"/>
+    <taggedValue xmi:id="_gzYjQLsmEfCDFPA2sJ_liA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_gzYjQbsmEfCDFPA2sJ_liA" tag="DB ProductVersion" value="16.10"/>
+    <taggedValue xmi:id="_gzYjQrsmEfCDFPA2sJ_liA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_gwAfIrsmEfCDFPA2sJ_liA" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_g2xOcLsmEfCDFPA2sJ_liA" name="pinsights" dataManager="_gwAfILsmEfCDFPA2sJ_liA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_g2xOcbsmEfCDFPA2sJ_liA" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_g2xOcrsmEfCDFPA2sJ_liA" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_g2xOc7smEfCDFPA2sJ_liA" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
