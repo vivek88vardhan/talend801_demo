@@ -577,7 +577,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="720" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="UUID uuid = UUID.randomUUID();&#xA;&#xA;// Convert the UUID to its standard string representation&#xA;context.vUUID = uuid.toString();"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="UUID uuid = UUID.randomUUID();&#xA;&#xA;// Convert the UUID to its standard string representation&#xA;context.vUUID = uuid.toString();&#xA;&#xA;System.out.println(context.vUUID);"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.util.UUID;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
@@ -698,14 +698,14 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1480" posY="840">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="context.vSuccessfulCount = context.vSuccessfulCount + 1;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;===============>&quot;+((String) globalMap.get(&quot;tDBRow_1_ERROR_MESSAGE&quot;)));&#xA;&#xA;globalMap.replace(&quot;tDBRow_1_ERROR_MESSAGE&quot;, null);"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_3"/>
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1720" posY="840">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="context.vFailureCount = context.vFailureCount + 1;&#xA;&#xA;&#xA;&#xA;&#xA;boolean success = (Boolean) globalMap.get(&quot;tDBRow_1_ERROR_MESSAGE&quot;) == null;&#xA;String error = (String) globalMap.get(&quot;tDBRow_1_ERROR_MESSAGE&quot;);&#xA;&#xA;if (success) {&#xA;&#x9;Integer count = (Integer) globalMap.get(&quot;tDBRow_1_NB_LINE&quot;);&#xA;&#x9;System.out.println(&quot;Rows deleted: &quot; + count);&#xA;&#x9;context.vfInternalcounts = count;&#xA;&#xA;} else {&#xA;    System.out.println(&quot;FAILED: &quot; + error);&#xA;}&#xA;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="context.vFailureCount = context.vFailureCount + 1;&#xA;&#xA;&#xA;"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_4"/>
@@ -719,7 +719,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1720" posY="680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_6" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="context.vSuccessfulCount = context.vSuccessfulCount + 1;&#xA;&#xA;&#xA;boolean success = (Boolean) globalMap.get(&quot;tDBRow_1_ERROR_MESSAGE&quot;) == null;&#xA;String error = (String) globalMap.get(&quot;tDBRow_1_ERROR_MESSAGE&quot;);&#xA;&#xA;if (success) {&#xA;&#x9;Integer count = (Integer) globalMap.get(&quot;tDBRow_1_NB_LINE&quot;);&#xA;&#x9;System.out.println(&quot;Rows deleted: &quot; + count);&#xA;&#x9;context.vsInternalcounts = count;&#xA;&#xA;} else {&#xA;    System.out.println(&quot;FAILED: &quot; + error);&#xA;}&#xA;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="context.vSuccessfulCount = context.vSuccessfulCount + 1;&#xA;&#xA;&#xA;&#xA;"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_6"/>
@@ -1083,7 +1083,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="etl_execution_log" name="copyOfdbsuop">
-      <column comment="" key="false" length="10" name="batch_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="10" name="batch_uuid" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="query_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1133,7 +1133,7 @@
       <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="copyOfdbsuop">
-        <mapperTableEntries name="batch_id" expression="row6.vUUID " type="id_String"/>
+        <mapperTableEntries name="batch_uuid" expression="row6.vUUID " type="id_String"/>
         <mapperTableEntries name="query_id" expression="((String)globalMap.get(&quot;row3.query_id&quot;))" type="id_String"/>
         <mapperTableEntries name="execution_stage" expression="((Integer)globalMap.get(&quot;row3.execution_stage&quot;)) " type="id_Integer"/>
         <mapperTableEntries name="execution_group" expression="((String)globalMap.get(&quot;row3.execution_group&quot;)) " type="id_String" nullable="true"/>
@@ -1176,7 +1176,7 @@
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
@@ -1188,7 +1188,7 @@
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="batch_id" id="0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="batch_uuid" id="0"/>
       <elementValue elementRef="UPDATE_KEY" value="false" id="1"/>
       <elementValue elementRef="DELETE_KEY" value="false" id="2"/>
       <elementValue elementRef="UPDATABLE" value="true" id="3"/>
@@ -1267,12 +1267,12 @@
     <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
-    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
-    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="etl_execution_log" name="tDBOutput_3">
-      <column comment="" key="false" length="10" name="batch_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="10" name="batch_uuid" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="query_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1319,7 +1319,7 @@
       </column>
     </metadata>
     <metadata connector="REJECT" label="etl_execution_log" name="REJECT">
-      <column comment="" key="false" length="10" name="batch_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="10" name="batch_uuid" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="query_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1405,14 +1405,16 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBRow_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tJava_4">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tDBRow_1" target="tJava_6">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tDBRow_1" target="tJava_3">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tJava_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tDBRow_1" target="tJava_6">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="globalMap.get(&quot;tDBRow_1_ERROR_MESSAGE&quot;) == null"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tDBRow_1" target="tJava_4">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="globalMap.get(&quot;tDBRow_1_ERROR_MESSAGE&quot;) != null &#xA;"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If2" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
