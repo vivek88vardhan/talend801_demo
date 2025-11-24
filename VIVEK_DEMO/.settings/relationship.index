@@ -803,6 +803,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_WH1ZML3cEfCDFPA2sJ_liA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_-Ag6QL3jEfCDFPA2sJ_liA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_-Ag6QL3jEfCDFPA2sJ_liA - etl_batch_control",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_-Ag6QL3jEfCDFPA2sJ_liA - etl_query_repository",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_bRpIQKLYEfCCffKgNLtgeQ",
     "version" : "0.1",
     "type" : "job"

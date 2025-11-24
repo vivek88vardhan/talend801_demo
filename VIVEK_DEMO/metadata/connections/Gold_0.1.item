@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_H9kZQL3kEfCDFPA2sJ_liA" name="Gold" id="_ER28gL3kEfCDFPA2sJ_liA" label="Gold" dataPackage="_H93UML3kEfCDFPA2sJ_liA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/postgres?" dbVersionString="V9_X" Port="5432" Username="vivekvardhan" Password="enc:system.encryption.key.v1:enhpm/IocAGI38oDQa0O91CrtL2PkJe7UegkcfteEi28nxGW" ServerName="localhost" DatasourceName="" FileFieldName="" SID="postgres" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="gold" supportNLS="false">
+    <taggedValue xmi:id="_H9kZQb3kEfCDFPA2sJ_liA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_H9uxUL3kEfCDFPA2sJ_liA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_H9uxUb3kEfCDFPA2sJ_liA" tag="Status" value=""/>
+    <taggedValue xmi:id="_H9uxUr3kEfCDFPA2sJ_liA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_H9uxU73kEfCDFPA2sJ_liA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_H9uxVL3kEfCDFPA2sJ_liA" tag="Description" value=""/>
+    <taggedValue xmi:id="_H9uxVb3kEfCDFPA2sJ_liA" tag="Author" value=""/>
+    <taggedValue xmi:id="_H9uxVr3kEfCDFPA2sJ_liA" tag="otherParameter"/>
+    <taggedValue xmi:id="_H9zp0L3kEfCDFPA2sJ_liA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_H9zp0b3kEfCDFPA2sJ_liA" tag="DB ProductVersion" value="17.5 (Homebrew)"/>
+    <taggedValue xmi:id="_H9zp0r3kEfCDFPA2sJ_liA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_H9kZQr3kEfCDFPA2sJ_liA" key="CONN_PARA_KEY_USERNAME" value="vivekvardhan"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_H93UML3kEfCDFPA2sJ_liA" name="postgres" dataManager="_H9kZQL3kEfCDFPA2sJ_liA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_H93UMb3kEfCDFPA2sJ_liA" name="gold"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
