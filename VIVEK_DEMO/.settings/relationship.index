@@ -819,10 +819,6 @@
     "id" : "_-Ag6QL3jEfCDFPA2sJ_liA - etl_batch_control",
     "version" : "Latest",
     "type" : "schema"
-  }, {
-    "id" : "_-Ag6QL3jEfCDFPA2sJ_liA - etl_query_repository",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
