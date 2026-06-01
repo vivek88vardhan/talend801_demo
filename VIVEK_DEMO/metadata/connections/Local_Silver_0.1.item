@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_DGYA0L3kEfCDFPA2sJ_liA" name="Local_Silver" id="_-Ag6QL3jEfCDFPA2sJ_liA" label="Local_Silver" dataPackage="_DGxCYL3kEfCDFPA2sJ_liA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/postgres?" dbVersionString="V9_X" Port="5432" Username="vivekvardhan" Password="enc:system.encryption.key.v1:6wQda5/oInvvpX7iGbj2W4KTHNqd494ISIyVIBfml7W6xEzQ" ServerName="localhost" DatasourceName="" FileFieldName="" SID="postgres" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="public" supportNLS="false">
-    <taggedValue xmi:id="_DGYA0b3kEfCDFPA2sJ_liA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_DGYA0b3kEfCDFPA2sJ_liA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_DGlcML3kEfCDFPA2sJ_liA" tag="package filter" value=""/>
     <taggedValue xmi:id="_DGlcMb3kEfCDFPA2sJ_liA" tag="Status" value=""/>
     <taggedValue xmi:id="_DGlcMr3kEfCDFPA2sJ_liA" tag="Version" value="0.1"/>
